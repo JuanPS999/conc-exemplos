@@ -1,4 +1,4 @@
-cd ~/.config/nvim || exit
+cd ~/Documentos/conc-exemplos/ || exit
 
 git add .
 git commit -m "Backup automático: $(date)"
