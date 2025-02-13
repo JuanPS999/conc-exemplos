@@ -1,17 +1,19 @@
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
+// Trabalho - Implementa Runnable e representa uma tarefa de impressão
 public class Trabalho implements Runnable {
-  private PrintQueue printQueue;
+    private PrintQueue printQueue; // Referência para a fila de impressão
 
-  public Trabalho(PrintQueue printQueue) {
-    this.printQueue = printQueue;
-  }
+    // Construtor que inicializa o PrintQueue
+    public Trabalho(PrintQueue printQueue) {
+        this.printQueue = printQueue;
+    }
 
-  @Override
-  public void run() {
-    System.out.printf("%s: Escrevendo tabalho.\n", Thread.currentThread().getName());
-    printQueue.printJob(new Object());
-    System.out.printf("%s: O documento foi escrito.\n", Thread.currentThread().getName());
-  }
+    @Override
+    public void run() {
+        // Mensagem indicando o início da tarefa
+        System.out.printf("%s: Escrevendo tabalho.\n", Thread.currentThread().getName());
+        // Executa o método que imprime o trabalho
+        printQueue.printJob(new Object());
+        // Mensagem indicando a finalização da tarefa
+        System.out.printf("%s: O documento foi escrito.\n", Thread.currentThread().getName());
+    }
 }
