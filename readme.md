@@ -130,4 +130,4 @@ ou, se a demo utilizar o Fork/Join ou ScheduledExecutorService, siga as instruç
 ### Referências e Recursos
 - **Java Concurrency in Practice** – Um livro essencial para aprofundar os conceitos de programação concorrente em Java.
 - **Documentação Oficial da Oracle** – Disponível em [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/essential/concurrency/), oferece detalhes completos sobre threads, executores, locks e outros mecanismos concorrentes.
-- **Java Concurrency Cookbook** - Um ótimo livro para aprender concorrência em java, disponibilizado por [Vaquar Khan](https://github.com/vaquarkhan/JavaConcurrencyExamples/(https://github.com/vaquarkhan/JavaConcurrencyExamples/)(https://github.com/vaquarkhan/JavaConcurrencyExamples/).
+- **Java Concurrency Cookbook** - Um ótimo livro para aprender concorrência em java, disponibilizado por [Vaquar Khan](https://github.com/vaquarkhan/JavaConcurrencyExamples/).
