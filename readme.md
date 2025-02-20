@@ -124,7 +124,7 @@ Por exemplo, para compilar e executar um exemplo Java, você pode usar os comand
 ```bash
 javac Principal.java
 java Principal
-`` 
+``` 
 ou, se a demo utilizar o Fork/Join ou ScheduledExecutorService, siga as instruções específicas contidas no relatório de cada demo.
 
 ### Referências e Recursos
